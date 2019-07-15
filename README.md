@@ -1,33 +1,13 @@
-# <Extension name\>This extension ....
+# ACME Corp. XtendM3 Extensions
 
-- Extensions: 1
-- Utilities: 0
-- Size: Small
-- Complexity: Simple
+## Introduction
+This respository contains Extensions that are used in XtendM3. Project is Maven project with support for Groovy language.
 
-# Extension logic  
-## Triggers  
-Trigger definition can be found in [metadata file](src/main/resources/metadata.yaml).
+To get started, install the following:
 
-## Workflow    
-The extension perform following actions:  
-- Retrieve info from xxx
-- Calculate yyy
-- Set return value to zzz
+* git
+* Eclipse
+* Eclipse plugin: Groovy Development Toolkit for Eclipse
 
-# Dependencies  
-## M3 Data  
-The extension needs freight information in xxxx
-
-## Utilities  
-The extension uses a utility for ...
-
-## Java/Groovy libraries    
-The extension uses following Java libraries
-- `groovy.json.JsonSlurper`
-
-## Others  
-N/A
-
-# Caveats  
-The extension does not have support for xx
+## Contribution
+For each Extension that you build, create a unit test and test all methods. Once you are ready to push. Use the Maven test goal to run all the tests
