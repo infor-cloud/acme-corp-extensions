@@ -1,14 +1,14 @@
 metadata:
   CustomerCreditCheckP1.groovy:
     name: CustomerCreditCheckP1
-    type: EXTENSION
+    type: TRIGGER
     trigger:
       program: CRS610
       method: PJINZ
       advice: POST
   CustomerCreditCheckP2.groovy:
     name: CustomerCreditCheckP2
-    type: EXTENSION
+    type: TRIGGER
     trigger:
       program: CRS610
       method: PJCHK
