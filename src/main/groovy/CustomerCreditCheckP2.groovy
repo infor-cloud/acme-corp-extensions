@@ -1,4 +1,4 @@
-class CustomerCreditCheckP2 {
+class CustomerCreditCheckP2 extends ExtendM3Trigger {
   private final LoggerAPI logger
   private final SessionAPI session
   private final InteractiveAPI interactive
