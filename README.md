@@ -65,10 +65,6 @@ To set up the project locally, perform the following:
 ## Issues
 When setting up this project for the first time you might run into some of the known problems 
 
-### Missing Artifact
-If you're seeing `Missing artifact com.infor.m3:xtendm3-sdks:jar:<version>` then it means that you're either using the XtendM3 SDK ahead of release or are using the wrong version. Take a look at the [official SDK repository](https://oxford.awsdev.infor.com/Erfan.Yousefi/xtendm3-sdk) and make sure you've gone through all the steps before setting this project up. 
-
-
 ### NoSuchMethodError when running unit tests
 When running unit tests for the first time in Eclipse, you might see an error like this:
 
