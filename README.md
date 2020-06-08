@@ -7,7 +7,7 @@ A sample repository for Acme Corp XtendM3 Extensions
 ## Introduction
 This repository is a sample repository for Acme Corp XtendM3 Extensions. The idea is to keep all customer's extension in one repository and collaborate to create, maintain and update Extensions in a central repository and move to customer's environment when needed.
 
-This let's the developers to work with keeping track of modifications to the extensions as well as a big advantage of being able to build, test and run them locally with a mocked M3 environment and create unit test cases to ensure the quality of the developed extensions 
+This lets the developers to work with keeping track of modifications to the extensions as well as a big advantage of being able to build, test and run them locally with a mocked M3 environment and create unit test cases to ensure the quality of the developed extensions 
 
 ## Setup
 The project is a standard Maven project using Mockito and JUnit 4. The source directory structure is similiar to any other Maven directory structure except for the Groovy source roots like below  
@@ -66,7 +66,7 @@ To set up the project locally, perform the following:
 	- On choose either New Project from existing sources or Import project
 
 ## Issues
-When setting up this project for the first time you might run into some of the known problems 
+When setting up this project for the first time you might run into some known problems 
 
 ### NoSuchMethodError when running unit tests
 When running unit tests for the first time in Eclipse, you might see an error like this:
