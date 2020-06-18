@@ -89,6 +89,25 @@
           </gitFlowConfig>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>com.infor.m3</groupId>
+        <artifactId>xtendm3-maven-plugin</artifactId>
+        <version>0.1.2</version>
+        <executions>
+          <execution>
+            <phase>compile</phase>
+            <goals>
+              <goal>lint</goal>
+            </goals>
+          </execution>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>export</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 </project>

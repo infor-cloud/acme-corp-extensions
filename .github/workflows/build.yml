@@ -13,6 +13,16 @@ jobs:
           java-version: 1.8
       - name: Build with Maven
         run: mvn -B package --file pom.xml
+      - name: Lint XtendM3 Extensions
+        run: mvn -B xtendm3:lint --file pom.xml
+      - name: Export XtendM3 Extensions
+        run: mvn -B xtendm3:export --file pom.xml
+      - uses: actions/upload-artifact@v2
+        name: Upload exported extensions
+        if: ${{ success() }}
+        with:
+          name: exported-extension
+          path: target/exported.zip
       - name: Cache Maven packages
         uses: actions/cache@v2
         with:
