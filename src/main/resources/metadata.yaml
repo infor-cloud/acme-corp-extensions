@@ -1,11 +1,21 @@
 metadataVersion: 1
 extensions:
-  - name: CRS_IW_E01288_C_SyncControlObject
+  - name: CustomerCreditCheckP1
     triggers:
       - type: METHOD
-        program: CRS630
+        program: CRS610
         programType: INTERACTIVE
-        method: PCUPD
+        method: PJINZ
+        advice: PRE
+    priority: 500
+    utilities:
+  - name: CustomerCreditCheckP2
+    triggers:
+      - type: METHOD
+        program: CRS610
+        programType: INTERACTIVE
+        method: PJINZ
         advice: POST
     priority: 500
     utilities:
+
